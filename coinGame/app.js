@@ -36,8 +36,8 @@ window.addEventListener('keyup', (e) => {
 	}
 
 	if(isTouching(avatar, coin)) {
-		moveCoin()
 		scoreCounter()
+		moveCoin()
 	}
 })
 
@@ -63,4 +63,3 @@ const scoreCounter = function() {
 }
 
 moveCoin()
-scoreCounter()
