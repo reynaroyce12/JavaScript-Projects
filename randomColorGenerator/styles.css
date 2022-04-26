@@ -1,0 +1,27 @@
+body {
+    background-color: #8FBDD3;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 5rem auto;
+}
+
+p {
+    text-align: center;
+    margin: 4rem auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+.color-button {
+    margin: 10rem auto;
+    display: block;
+}
+
+p:hover {
+    color: white;
+}
